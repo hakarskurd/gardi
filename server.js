@@ -15,7 +15,7 @@ const { YT_API_KEY, prefix, devs } = require("./config");
 const client = new Discord.Client({
   disableEveryone: true
 });
-client.login(process.env.TOKEN);
+client.login("NzIyMDU4ODE3MDU1MDk2ODg0.XvOkjg.cn5if6NWMZk1Fy_XL9LUXq9xmzg");
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
